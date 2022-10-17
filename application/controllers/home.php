@@ -10,5 +10,9 @@ public function tampil()
 {
 	return $this->load->view('v_tampil');
 }
-
+//Keterangan form
+public function from()
+{
+	echo 'Form input';
+}
 }
